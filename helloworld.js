@@ -22,13 +22,13 @@ myApp.config(function($stateProvider) {
   var homeState={
     name:'home',
     url:'/home',
-    templateUrl:'views/home.html'
+    templateUrl:'home.html'
   }
 
   var formState={
     name:'form',
     url:'/form',
-    templateUrl:'views/form.html'
+    templateUrl:'form.html'
   }
 
   $stateProvider.state(homeState);
