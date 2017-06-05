@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+    <script src="helloworld.js"></script>
+
+    <style>.active { color: red; font-weight: bold; }</style>
+  </head>
+
+  <body ng-app="helloworld">
+    <a ui-sref="hello" >Hello</a>
+    <a ui-sref="about">About</a>
+    <a ui-sref="content">content</a>
+    <a ui-sref="home">home</a>
+    <a ui-sref="form">form</a>
+
+    <ui-view></ui-view>
+  </body>
+</html>
